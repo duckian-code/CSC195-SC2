@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld/cmake-build-debug",
+	"dir-cur-src" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld",
+	"dir-top-bld" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld/cmake-build-debug",
+	"dir-top-src" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld/cmake-build-debug/CMakeFiles/HelloWorld.dir",
+	"sources" : 
+	{
+		"CMakeFiles/HelloWorld.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/anabelle/Neumont/Q3/CSC195-SC2/HelloWorld/main.cpp"
+		}
+	}
+}
