@@ -1,0 +1,13 @@
+# ninja log v6
+1	46	1746723335638086395	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o.ddi	57dc62c4f15c84ae
+46	48	1746723335686250514	CMakeFiles/PrimativeDataTypes.dir/CXX.dd	7efad4c971b9870c
+46	48	1746723335686250514	/home/anabelle/Neumont/Q3/CSC195-SC2/PrimativeDataTypes/cmake-build-debug/CMakeFiles/PrimativeDataTypes.dir/CXXModules.json	7efad4c971b9870c
+46	48	1746723335686250514	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o.modmap	7efad4c971b9870c
+48	277	1746723335686250514	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o	7c086295554872a0
+278	309	1746723335915363329	PrimativeDataTypes	d2153c70b5ffc8d
+1	42	1746723464113466971	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o.ddi	57dc62c4f15c84ae
+42	45	1746723464154468021	CMakeFiles/PrimativeDataTypes.dir/CXX.dd	7efad4c971b9870c
+42	45	1746723464154468021	/home/anabelle/Neumont/Q3/CSC195-SC2/PrimativeDataTypes/cmake-build-debug/CMakeFiles/PrimativeDataTypes.dir/CXXModules.json	7efad4c971b9870c
+42	45	1746723464154468021	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o.modmap	7efad4c971b9870c
+45	257	1746723464157652263	CMakeFiles/PrimativeDataTypes.dir/main.cpp.o	7c086295554872a0
+257	288	1746723464369473530	PrimativeDataTypes	d2153c70b5ffc8d

@@ -1,0 +1,3 @@
+/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTyoes.dir
+/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

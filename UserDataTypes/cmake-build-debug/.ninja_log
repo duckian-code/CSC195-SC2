@@ -1,0 +1,20 @@
+# ninja log v6
+88	544	1746648247332637711	CMakeFiles/UserDataTyoes.dir/main.cpp.o	9737b1cb8def3038
+82	87	1746648247326637077	CMakeFiles/UserDataTyoes.dir/main.cpp.o.modmap	3db154b3eaaf2b6c
+82	87	1746648247326637077	CMakeFiles/UserDataTyoes.dir/CXX.dd	3db154b3eaaf2b6c
+545	606	1746648247789685985	UserDataTyoes	b5a2220543d6bccb
+2	44	1746721446793416205	CMakeFiles/UserDataTyoes.dir/main.cpp.o.ddi	7932626cbcb4f35
+1	29	1746721497492077020	build.ninja	fbd1e216eb866958
+1	42	1746721497500882970	CMakeFiles/UserDataTyoes.dir/Sandwich.cpp.o.ddi	b26eefe4bfed787d
+42	46	1746721497546671422	CMakeFiles/UserDataTyoes.dir/CXX.dd	e26d4a8e124f6ee3
+42	46	1746721497546671422	/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTyoes.dir/CXXModules.json	e26d4a8e124f6ee3
+42	46	1746721497546671422	CMakeFiles/UserDataTyoes.dir/main.cpp.o.modmap	e26d4a8e124f6ee3
+42	46	1746721497546671422	CMakeFiles/UserDataTyoes.dir/Sandwich.cpp.o.modmap	e26d4a8e124f6ee3
+46	245	1746721497547295320	CMakeFiles/UserDataTyoes.dir/Sandwich.cpp.o	4ae18c8ad9aafdf7
+1	42	1746721537097230971	CMakeFiles/UserDataTyoes.dir/main.cpp.o.ddi	7932626cbcb4f35
+42	45	1746721537138231325	CMakeFiles/UserDataTyoes.dir/CXX.dd	e26d4a8e124f6ee3
+42	45	1746721537138231325	/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTyoes.dir/CXXModules.json	e26d4a8e124f6ee3
+42	45	1746721537138231325	CMakeFiles/UserDataTyoes.dir/main.cpp.o.modmap	e26d4a8e124f6ee3
+42	45	1746721537138231325	CMakeFiles/UserDataTyoes.dir/Sandwich.cpp.o.modmap	e26d4a8e124f6ee3
+45	266	1746721537141873706	CMakeFiles/UserDataTyoes.dir/main.cpp.o	2daa265e7a7019bc
+266	300	1746721537362233254	UserDataTyoes	f7f1ddf4849c25c6
