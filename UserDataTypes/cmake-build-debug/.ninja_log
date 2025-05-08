@@ -1,0 +1,26 @@
+# ninja log v6
+0	45	1746724590087697848	CMakeFiles/UserDataTypes.dir/main.cpp.o.ddi	2ac4efa25071fd08
+1	46	1746724590088697857	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.ddi	af78511d417588f3
+46	50	1746724590138193057	CMakeFiles/UserDataTypes.dir/CXX.dd	6974897d00e6d8fd
+46	50	1746724590138193057	/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTypes.dir/CXXModules.json	6974897d00e6d8fd
+46	50	1746724590138193057	CMakeFiles/UserDataTypes.dir/main.cpp.o.modmap	6974897d00e6d8fd
+46	50	1746724590138193057	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.modmap	6974897d00e6d8fd
+50	264	1746724590138193057	CMakeFiles/UserDataTypes.dir/main.cpp.o	91a7809bf097a9f0
+50	265	1746724590139436309	CMakeFiles/UserDataTypes.dir/Employee.cpp.o	3b914523b7be28a9
+265	300	1746724590353637972	UserDataTypes	fee9b572ce1e3195
+1	52	1746725546264280557	CMakeFiles/UserDataTypes.dir/main.cpp.o.ddi	2ac4efa25071fd08
+1	53	1746725546265454325	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.ddi	af78511d417588f3
+53	56	1746725546316281044	CMakeFiles/UserDataTypes.dir/CXX.dd	6974897d00e6d8fd
+53	56	1746725546316281044	/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTypes.dir/CXXModules.json	6974897d00e6d8fd
+53	56	1746725546316281044	CMakeFiles/UserDataTypes.dir/main.cpp.o.modmap	6974897d00e6d8fd
+53	56	1746725546316281044	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.modmap	6974897d00e6d8fd
+56	293	1746725546320258285	CMakeFiles/UserDataTypes.dir/Employee.cpp.o	3b914523b7be28a9
+56	295	1746725546319570068	CMakeFiles/UserDataTypes.dir/main.cpp.o	91a7809bf097a9f0
+295	332	1746725546558283309	UserDataTypes	fee9b572ce1e3195
+1	45	1746725927888601913	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.ddi	af78511d417588f3
+45	49	1746725927932602273	CMakeFiles/UserDataTypes.dir/CXX.dd	6974897d00e6d8fd
+45	49	1746725927932602273	/home/anabelle/Neumont/Q3/CSC195-SC2/UserDataTypes/cmake-build-debug/CMakeFiles/UserDataTypes.dir/CXXModules.json	6974897d00e6d8fd
+45	49	1746725927932602273	CMakeFiles/UserDataTypes.dir/main.cpp.o.modmap	6974897d00e6d8fd
+45	49	1746725927932602273	CMakeFiles/UserDataTypes.dir/Employee.cpp.o.modmap	6974897d00e6d8fd
+49	253	1746725927936602306	CMakeFiles/UserDataTypes.dir/Employee.cpp.o	3b914523b7be28a9
+253	291	1746725928140603976	UserDataTypes	fee9b572ce1e3195
