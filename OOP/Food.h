@@ -21,7 +21,8 @@ public:
         m_calories = calories;
     }
 
-    void Consume();
+    virtual void Consume() = 0;
+
     int GetCalories(){return m_calories;}
     void SetCalories(int calories){m_calories = calories;}
 protected:
