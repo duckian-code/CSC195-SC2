@@ -6,5 +6,5 @@ using namespace std;
 int main() {
     // Database db;
     //
-    // db.Create(Animal::eType::BIRD);
+    db.Create(Animal::eType::BIRD);
 }
