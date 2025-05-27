@@ -9,8 +9,8 @@ using namespace std;
 Software::eType which_software() {
     while (true) {
         cout << "Which software type ?\n"
-            "1 - Create IDE\n"
-            "2 - Create Malware\n";
+            "1 - IDE\n"
+            "2 - Malware\n";
         int choice;
         cin >> choice;
         Software::eType type = static_cast<Software::eType>(choice - 1);
@@ -21,7 +21,7 @@ Software::eType which_software() {
 string which_software_name() {
     cout << "Enter name of software you would like to locate: ";
     string name;
-    cin >> name;
+    cin >> std::ws >>  name;
     return name;
 }
 
@@ -40,14 +40,19 @@ int main() {
         switch (choice) {
             case 1:
                 db.Create(which_software());
+                continue;
             case 2:
                 db.DisplayAll();
+                continue;
             case 3:
                 db.Display(which_software_name());
+                continue;
             case 4:
                 db.Display(which_software());
+                continue;
             case 5:
                 quit = true;
+                continue;
             default:
                 cout << "Invalid choice !\n";
         }

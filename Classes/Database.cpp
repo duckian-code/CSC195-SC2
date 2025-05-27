@@ -29,37 +29,14 @@ float Database::GetSize() {
     return size;
 }
 
-void AddLanguage(Software* obj) {
-    bool quit = false;
-    while (!quit) {
-        cout << "Enter language to add: ";
-        string language;
-        cin >> language;
-        obj->AddLanguage(language);
-        cout << "Would you like to add another language? (y/n): ";
-        char choice;
-        cin >> choice;
-        quit = choice == 'n';
-    }
-}
-
 void Database::Create(Software::eType type) {
     Software* obj = nullptr;
     switch (type) {
         case Software::eType::IDE:
             obj = new Ide(InputName(), GetSize());
-            AddLanguage(obj);
             break;
         case Software::eType::MALWARE:
             obj = new Malware(InputName(), GetSize());
-            cout << "How many computers has it infected ?";
-            int size;
-            cin >> size;
-            obj->AddComputersInfected(size);
-            cout << "What is the danger rating (0.0 to 5.0) ?";
-            float danger;
-            cin >> danger;
-            obj->SetDanger(danger);
             break;
     }
     obj->Read(cout, cin);
@@ -67,9 +44,13 @@ void Database::Create(Software::eType type) {
 }
 
 void Database::DisplayAll() {
+    for (Software* obj : objects) {
+        Display(obj->GetName());
+    }
 }
 
 void Database::Display(const string &name) {
+    cout << "Displaying " << name << endl;
     for (Software* obj : objects) {
         if (obj->GetName() == name) {
             obj->Write(cout);

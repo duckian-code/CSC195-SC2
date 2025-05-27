@@ -19,7 +19,7 @@ public:
     };
     virtual void Read(std::ostream& ostream, std::istream& istream) {};
     virtual void Write(std::ostream& ostream) {};
-    virtual string GetName() {return "";};
+    virtual string GetName() {return name;};
     virtual eType GetType() = 0;
 
     virtual void AddLanguage(const string& language) {};
