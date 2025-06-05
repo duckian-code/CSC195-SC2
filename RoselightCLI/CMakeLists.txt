@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # ----- turn every modules feature off ---------------------------
-set(CMAKE_CXX_SCAN_FOR_MODULES           OFF)
+set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 set(CMAKE_EXPERIMENTAL_CXX_MODULE_DYNDEP OFF)
 set(CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API OFF)
 # ----------------------------------------------------------------
@@ -23,4 +23,12 @@ add_executable(
 )
 
 # belt‑and‑braces (harmless once the flags above work)
-target_compile_options(RoselightCLI PRIVATE -fno-modules-ts -fno-modules)
+target_compile_options(RoselightCLI PRIVATE
+        -fsanitize=address
+        -fno-omit-frame-pointer
+        -fno-modules-ts
+        -fno-modules
+)
+
+# allow sanitising of memory
+target_link_options(RoselightCLI PRIVATE -fsanitize=address)

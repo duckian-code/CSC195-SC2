@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 #include "ollama.hpp"
 #include "Emotions/Angry.h"
 #include "Emotions/Emotion.h"
@@ -7,6 +8,10 @@
 using namespace std;
 Ollama server("http://localhost:11434");
 const string model = "aiko";
+extern "C" void __lsan_do_leak_check(); // for memory leak checker
+#ifdef __SANITIZE_ADDRESS__
+#include <sanitizer/lsan_interface.h>
+#endif
 
 enum role {
     USER,
@@ -98,7 +103,7 @@ string addEmotionToPrompt(float tone, Emotion::eType emotion, string userInput) 
 
     mood->SetContext(userInput);
     // cout << mood->GetContext() << endl;
-    return mood->GetContext();
+    return string(mood->GetContext());
 }
 
 ollama::messages streamToMessages(vector<map<role, string>>& stream) {
@@ -221,4 +226,10 @@ int main() {
     viewMessageStream(stream);
     storeMessages(streamToMessages(stream));
 
+    // I AM ON LINUX, THE MEMORY REMOVAL VERSION ON LINUX IS THE FOLLOWING
+    #ifdef __SANITIZE_ADDRESS__
+        __lsan_do_leak_check();               // dumps leaks now
+    #endif
+
+    return 0;
 }
