@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/RoselightDemo.dir/link.d CMakeFiles/RoselightDemo.dir/main.cpp.o CMakeFiles/RoselightDemo.dir/Emotions/Excitement.cpp.o CMakeFiles/RoselightDemo.dir/Emotions/Emotion.cpp.o -o RoselightDemo
